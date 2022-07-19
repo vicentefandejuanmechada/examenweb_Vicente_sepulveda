@@ -14,7 +14,7 @@
 <body>
 <?php $this->load->view('navbar'); ?>
 <section>
-    <img src="<?php echo base_url('artilugioslacarpeta/img/principal.jpg')?>" alt="" id="imgprincipal" >
+    <img src="<?php echo base_url('artilugioslacarpeta/img/principal.jpg');?>" alt="" id="imgprincipal" >
 </section>    
 <section>
             <h1 class="titulo">Bienvenidos a Taller Don Gualo</h1>
@@ -29,7 +29,7 @@
                     <li>Caja de Cambios</li>
                     <li>Afinamiento</li>
                 </ul>
-                <img src="<?php('artilugioslacarpeta/img/mecanica.jpg'); ?>" alt="" />
+                <img src="<?php echo base_url('artilugioslacarpeta/img/mecanica.jpg'); ?>" alt="" />
             </article>
             <article class="art2">
                 <h2>Mecánica en General</h2>
