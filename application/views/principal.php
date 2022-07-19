@@ -16,7 +16,7 @@
    
 </head>
 <body>
-
+<?php $this->load->view('menu'); ?>
 <section>
     <img src="<?php echo base_url('artilugioslacarpeta/img/principal.jpg');?>" alt="" id="imgprincipal" >
 </section>    
