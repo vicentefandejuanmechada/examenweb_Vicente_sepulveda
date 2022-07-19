@@ -7,9 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Taller Don gualo</title>
-    <script src="<?php echo base_url(); ?>assets/js/bootstrap.min.js"></script>  
-    <script src="<?php echo base_url(); ?>assets/js/sweetalert2.all.min.js"></script>
-    <script src="<?php echo base_url(); ?>assets/js/script.js"></script>
+    <script src="<?php echo base_url(); ?>artilugioslacarpeta/js/bootstrap.min.js"></script>  
+    <script src="<?php echo base_url(); ?>artilugioslacarpeta/js/sweetalert2.all.min.js"></script>
+    <script src="<?php echo base_url(); ?>artilugioslacarpeta/js/script.js"></script>
 </head>
 <body>
 <?php $this->load->view('navbar'); ?>
