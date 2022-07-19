@@ -12,7 +12,7 @@
     <script src="<?php echo base_url(); ?>assets/js/script.js"></script>
 </head>
 <body>
-<?php $this->load->view('includes/navbar'); ?>
+<?php $this->load->view('navbar'); ?>
 <section>
     <img src="<?php echo base_url('artilugioslacarpeta/img/principal.jpg')?>" alt="" id="imgprincipal" >
 </section>    
