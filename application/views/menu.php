@@ -22,8 +22,8 @@
                     <li><a href="">Quienes somos</a></li>
                     <li  class="btn"><a href="<?php echo base_url(); ?>#arti1">servicio</a></li>
                     <li  class="btn"><a href="<?php echo base_url(); ?>index.php/principal/formucontacto">Contacto</a></li>
-                    <li><a href="<?php echo base_url(); ?>index.php/c_vehiculos/agrega_vehiculo">agrega tu vehiculo</a></li>
-                    <li><a href="<?php echo base_url(); ?>index.php/c_vehiculos/verVehiculos">Vehiculos</a></li>
+                    <li><a href="<?php echo base_url(); ?>index.php/principal/vistainsert">agrega tu vehiculo</a></li>
+                    <li><a href="<?php echo base_url(); ?>index.php/principal/verVehiculos">Vehiculos</a></li>
                  
                  
                   

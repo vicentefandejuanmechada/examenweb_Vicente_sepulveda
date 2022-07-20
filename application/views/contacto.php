@@ -16,15 +16,16 @@
 <body>
 
 <?php $this->load->view('menu'); ?>
-
+<div class="container bg-primary p-3">
+  <main>
 <form class='contactomsg'>
-    <div><label name="nombrecontac">Nombre:</label><input type='text'  value=''></div>
+    <div><label name="nombrecontac">Nombre:</label><input  type='text'  value=''></div>
     <div><label name="correocontac">Correo electronico:</label><input type='email' value=''></div>
     <div><label name="asuntoconsulta">Asunto de la consulta:</label><input type='text' value=''></div>
     <div><label name="comentariocontac">Consulta:</label><textarea rows='6' cols="37"></textarea></div>
     <div><input type='submit' name='Enviar'></div>
-
 </form>
-    
+</main>
+</div>
 </body>
 </html>

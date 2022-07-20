@@ -1,7 +1,5 @@
 <?php 
-defined('BASEPATH') or exit('No direct script access allowed');
-
-?>
+defined('BASEPATH') or exit('No direct script access allowed');?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -18,6 +16,22 @@ defined('BASEPATH') or exit('No direct script access allowed');
     <title>Document</title>
 </head>
 <body>
-    <h1>hola</h1>
+<?php $this->load->view('menu'); ?>
+<main>
+<div class="container bg-primary p-3">
+        <form action="<?php echo base_url()?>index.php/principal/ agrega_vehiculo" method="get">
+        <label for="idpatente">patente</label>
+        <input type="text" name="CampoPatente" id="idpatente">
+        <label for="idmarca">Marca</label>
+        <input type="text" name="CampoMarca" id="idmarca">
+        <label for="idmodelo">Modelo</label>
+        <input type="text" name="CampoModelo" id="idmodelo">
+        <label for="idcolor">Color</label>
+        <input type="text" name="CampoColor" id="idcolor">
+        <input type="submit" value="GUARDAR">
+    </form>
+</div>
+    </main>
+
 </body>
 </html>
