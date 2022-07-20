@@ -10,7 +10,7 @@ class principal extends CI_Controller{
 
 public function formucontacto()
 	{
-		$this->load->view('formucontacto');
+		$this->load->view('contacto');
 	}
 
 

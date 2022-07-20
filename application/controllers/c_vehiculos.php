@@ -6,7 +6,7 @@ class vehiculo extends CI_Controller{
 
 public  function agrega_vehiculo()
 {
-    $this->load->view('agrega_vehiculo', $data);
+    $this->load->view('agregar_vehiculo', $data);
 	
 }
 
@@ -19,5 +19,3 @@ public function verVehiculos()
 
 }
 
-
-?>

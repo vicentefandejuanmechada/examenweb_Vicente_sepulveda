@@ -37,8 +37,14 @@ body{
        margin-top: 10px;
        color:white;  
 } 
+
+.btn li{
+    color: black;
+}
+
+
 .menu li{
-   
+    color: black;
     border: white 3px solid;
     border-radius: 20px;
     margin: 20px 20px 20px 20px;
@@ -46,6 +52,10 @@ body{
     display:inline-block;
 }
 
+.menu a:hover{
+    color: black;
+    background-color: black;
+}
 
 
 
